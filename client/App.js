@@ -16,12 +16,13 @@ export class App extends React.Component {
         this.setState({
             input: event.target.value
         })
-    };
+
+    }
 
     handleSubmit(event) {
         event.preventDefault();
         console.log("item submitted!")
-
+        
     }
 
 
